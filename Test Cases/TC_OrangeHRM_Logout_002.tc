@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to test the logout feature.</description>
+   <name>TC_OrangeHRM_Logout_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5fd59bfa-0985-4aa9-90a3-5765cabd663d</testCaseGuid>
+</TestCaseEntity>
