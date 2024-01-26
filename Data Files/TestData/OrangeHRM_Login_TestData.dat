@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test data for login</description>
+   <name>OrangeHRM_Login_TestData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>60acdc7c-e8f0-4155-b035-3a780cd07a9b</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>admin password</data>
+   <data>user1 abcd</data>
+   <data>user2 passwordABCD</data>
+   <data>admin2 hello24123</data>
+   <data>tron potato234</data>
+   <data>greek 22532jdlu</data>
+   <data>border jdfausd</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>7</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

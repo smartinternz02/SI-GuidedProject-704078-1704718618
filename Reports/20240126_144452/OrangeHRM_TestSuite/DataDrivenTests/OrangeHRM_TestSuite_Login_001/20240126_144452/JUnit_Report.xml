@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM_TestSuite_Login_001" time="227.732" tests="7" failures="0" errors="0">
+   <testsuite name="OrangeHRM_TestSuite_Login_001" tests="7" failures="0" errors="0" time="227.732" skipped="0" timestamp="26-01-2024T14:44:55" hostname="racericon - racer" id="Test Suites/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240126_144452/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Login_001/20240126_144452"/>
+         <property name="logFiles" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240126_144452/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Login_001/20240126_144452/execution0.log"/>
+         <property name="attachments" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240126_144452/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Login_001/20240126_144452/1706260667951.png"/>
+         <property name="hostName" value="racericon - racer"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="d02b4937-e2ad-4ce4-9372-a6510ad82a5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="124.031" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:44:57 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:44:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:46:37 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'admin' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:46:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'password' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:46:56 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:46:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:47:01 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:47:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="7.998" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:47:01 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:47:01 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:47:03 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:47:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'user1' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:47:04 - [MESSAGE][PASSED] - Text 'user1' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'abcd' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:47:04 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:47:09 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:47:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:47:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="28.602" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:47:47 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:47:47 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:15 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'user2' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:15 - [MESSAGE][PASSED] - Text 'user2' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'passwordABCD' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:15 - [MESSAGE][PASSED] - Text 'passwordABCD' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:16 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:48:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="6.361" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:48:16 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:48:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:17 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'admin2' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:17 - [MESSAGE][PASSED] - Text 'admin2' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'hello24123' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:17 - [MESSAGE][PASSED] - Text 'hello24123' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:48:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:48:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="2.04" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:48:22 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:48:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:23 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'tron' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:23 - [MESSAGE][PASSED] - Text 'tron' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'potato234' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:24 - [MESSAGE][PASSED] - Text 'potato234' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:24 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:48:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="2.014" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:48:25 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:48:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:25 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'greek' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:25 - [MESSAGE][PASSED] - Text 'greek' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text '22532jdlu' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:26 - [MESSAGE][PASSED] - Text '22532jdlu' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:27 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:48:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" time="15.921" classname="Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003" status="PASSED">
+         <system-out><![CDATA[26-01-2024T14:48:27 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003
+
+26-01-2024T14:48:27 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:27 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+26-01-2024T14:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username"), username): Text 'border' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:37 - [MESSAGE][PASSED] - Text 'border' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+
+26-01-2024T14:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password"), password): Text 'jdfausd' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:37 - [MESSAGE][PASSED] - Text 'jdfausd' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'
+
+26-01-2024T14:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login' is clicked on
+
+26-01-2024T14:48:42 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard"), 0): Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)
+
+26-01-2024T14:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-01-2024T14:48:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard' located by 'By.xpath: //div[@id='app']/div/div/header/div/div/span/h6' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T14:44:55 - [TEST_SUITE][FAILED] - OrangeHRM_TestSuite_Login_001: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'user2' of object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC_OrangeHRM_Login_Negative_003.run(TC_OrangeHRM_Login_Negative_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706260492592.run(TempTestSuite1706260492592.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username' located by '//input[@name='username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-01-2024T14:44:55 - [TEST_SUITE][FAILED] - OrangeHRM_TestSuite_Login_001: Test Cases/Data Driven/TC_OrangeHRM_Login_Negative_003 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'user2' of object 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC_OrangeHRM_Login_Negative_003.run(TC_OrangeHRM_Login_Negative_003:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706260492592.run(TempTestSuite1706260492592.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username' located by '//input[@name='username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
