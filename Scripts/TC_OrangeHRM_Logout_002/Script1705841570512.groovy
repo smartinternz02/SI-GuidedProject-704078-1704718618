@@ -17,21 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), GlobalVariable.USERNAME)
-
-WebUI.setEncryptedText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/button_Login'))
-
 WebUI.click(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/span_Paul Collings'))
 
 WebUI.click(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/a_Logout'))
 
 WebUI.verifyElementPresent(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), 0)
 
-WebUI.closeBrowser()
 

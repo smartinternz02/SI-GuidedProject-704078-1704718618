@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "237FF1A306130A9E86F311AF2E24BA3A",
+  "keywordClasses": [
+    {
+      "name": "commonUtils.Utils",
+      "keywordMethods": [
+        {
+          "name": "clearText",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

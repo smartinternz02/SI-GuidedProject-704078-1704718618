@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/aside/nav/div[2]/ul/li/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search_position.png"
+    }
+  ]
 }
