@@ -2,13 +2,33 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search",
-      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/aside/nav/div[2]/ul/li/a/span",
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Event_oxd-input oxd-input--active",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/form/div/div/div[2]/div/div[2]/input",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//span",
+      "proposedLocator": "//div[2]/div/div[2]/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search_position.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Event_oxd-input oxd-input--active_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/form/div[3]/div/div/div/div[2]/textarea",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/Page_OrangeHRM/button_Submit",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRMPages/Page_OrangeHRM/button_Submit_neighbor.png"
     }
   ]
 }

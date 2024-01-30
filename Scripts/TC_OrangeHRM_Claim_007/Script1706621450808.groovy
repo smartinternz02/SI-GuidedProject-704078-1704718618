@@ -11,20 +11,24 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.internal.Base64 as Base64
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/a_Claim'))
 
-WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), username)
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/a_Submit Claim'))
 
-WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'), password)
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
 
-WebUI.click(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login'))
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard'), 0)
+WebUI.setText(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/textarea_Remarks_oxd-textarea oxd-textarea-_237541'), 
+    'Hello')
+
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/button_Create'))
+
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/Page_OrangeHRM/button_Submit'))
 

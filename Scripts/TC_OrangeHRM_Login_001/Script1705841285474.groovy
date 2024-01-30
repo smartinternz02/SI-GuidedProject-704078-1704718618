@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), GlobalVariable.USERNAME)
 
 WebUI.setEncryptedText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'), GlobalVariable.PASSWORD)
 

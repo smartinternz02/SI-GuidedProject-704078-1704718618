@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Submit Claim</name>
+   <tag></tag>
+   <elementGuidId>6f99aff0-0a6f-4865-a1d7-722f95be3af7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.oxd-topbar-body-nav-tab-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>76d0062d-569b-40db-bf8c-0af5035a7de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-topbar-body-nav-tab-item</value>
+      <webElementGuid>67e68c66-34c7-4e6f-9051-44df74b9057e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>5ff75f83-5bc8-4fc9-96e4-ca74d2d725d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit Claim</value>
+      <webElementGuid>94fc5864-9461-4c10-b5e4-77ca488b8b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab&quot;]/a[@class=&quot;oxd-topbar-body-nav-tab-item&quot;]</value>
+      <webElementGuid>fe34b35a-8cf3-4271-a4e2-f59f8740abbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/a</value>
+      <webElementGuid>e3244ebf-4de5-4549-b8ab-57d5f7f62567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Submit Claim')]</value>
+      <webElementGuid>30e1139e-e7ea-469a-acf3-3ee066fd066b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::a[1]</value>
+      <webElementGuid>eb6be879-5909-4b22-a21a-b226e60f7c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::a[4]</value>
+      <webElementGuid>86e2e32d-ba17-4fdd-8c43-53f5309d4836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submit Claim']/parent::*</value>
+      <webElementGuid>ef5d428c-0149-4280-b71c-6bdff28a8f78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>cc3f29bf-56f0-46b4-8202-5f024d02a328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/ul/li[2]/a</value>
+      <webElementGuid>4ce9f426-b39e-45d0-81ac-9a3b918359c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Submit Claim' or . = 'Submit Claim')]</value>
+      <webElementGuid>e68325c7-e70f-4905-a50d-f48556618c8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

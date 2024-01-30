@@ -11,20 +11,20 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.util.internal.Base64 as Base64
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.click(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Leave_OR/a_Leave List'))
 
-WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), username)
 
-WebUI.setText(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password'), password)
+if (WebUI.verifyElementPresent(findTestObject('OrangeHRMPages/OrangeHRM_Leave_OR/span_Records'), 0)) {
+	WebUI.click(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Leave_OR/button_Approve'))
+	
+	WebUI.verifyElementVisible(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Leave_OR/div_SuccessSuccessfully Updated'))
+	
+}
 
-WebUI.click(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/button_Login'))
-
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard'), 0)
 

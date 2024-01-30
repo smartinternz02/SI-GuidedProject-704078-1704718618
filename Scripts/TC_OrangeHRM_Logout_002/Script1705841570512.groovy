@@ -21,6 +21,5 @@ WebUI.click(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/span_Paul Collings
 
 WebUI.click(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/a_Logout'))
 
-WebUI.verifyElementPresent(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/input_Username_username'), 0)
-
+WebUI.verifyElementNotPresent(findTestObject('OrangeHRMPages/OrangeHRM_Login_OR/h6_Dashboard'), 0)
 

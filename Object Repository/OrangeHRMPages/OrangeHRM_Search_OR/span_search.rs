@@ -4,23 +4,20 @@
    <name>span_search</name>
    <tag></tag>
    <elementGuidId>efa3d6bb-047b-480b-8da6-6e30b6af26cc</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>span.oxd-text.oxd-text--span.oxd-main-menu-item--name</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
