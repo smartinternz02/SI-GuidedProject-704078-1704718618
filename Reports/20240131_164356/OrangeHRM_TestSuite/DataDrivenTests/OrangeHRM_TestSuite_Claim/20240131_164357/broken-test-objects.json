@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password",
+      "brokenLocator": "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_164356/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_164357/Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[3]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_164356/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_164357/Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[4]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_164356/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_164357/Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event_idRelative.png"
+    }
+  ]
+}

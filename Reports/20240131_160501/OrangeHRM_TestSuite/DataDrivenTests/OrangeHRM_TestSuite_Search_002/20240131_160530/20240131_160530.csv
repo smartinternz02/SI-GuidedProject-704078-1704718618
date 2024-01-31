@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM_TestSuite_Search_002,Firefox 115.0,,,31-01-2024 16:05:32,31-01-2024 16:06:54,1m - 22.085s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:34,31-01-2024 16:06:36,1.731s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:34,31-01-2024 16:06:35,0.740s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:35,31-01-2024 16:06:36,0.467s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:36,31-01-2024 16:06:36,0.480s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:36,31-01-2024 16:06:38,1.649s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:36,31-01-2024 16:06:37,0.488s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:37,31-01-2024 16:06:37,0.685s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:37,31-01-2024 16:06:38,0.461s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:38,31-01-2024 16:06:39,1.685s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:38,31-01-2024 16:06:38,0.519s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:38,31-01-2024 16:06:39,0.705s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:39,31-01-2024 16:06:39,0.445s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:39,31-01-2024 16:06:41,1.643s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:39,31-01-2024 16:06:40,0.507s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:40,31-01-2024 16:06:41,0.677s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:41,31-01-2024 16:06:41,0.449s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:41,31-01-2024 16:06:43,1.597s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:41,31-01-2024 16:06:42,0.484s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:42,31-01-2024 16:06:42,0.662s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:42,31-01-2024 16:06:43,0.438s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:43,31-01-2024 16:06:44,1.625s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:43,31-01-2024 16:06:43,0.494s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:43,31-01-2024 16:06:44,0.673s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:44,31-01-2024 16:06:44,0.448s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:44,31-01-2024 16:06:46,1.622s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:44,31-01-2024 16:06:45,0.502s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:45,31-01-2024 16:06:45,0.671s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:45,31-01-2024 16:06:46,0.437s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:46,31-01-2024 16:06:48,1.626s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:46,31-01-2024 16:06:46,0.492s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:46,31-01-2024 16:06:47,0.675s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:47,31-01-2024 16:06:48,0.449s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:48,31-01-2024 16:06:49,1.643s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:48,31-01-2024 16:06:48,0.500s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:48,31-01-2024 16:06:49,0.685s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:49,31-01-2024 16:06:49,0.447s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:49,31-01-2024 16:06:51,1.628s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:49,31-01-2024 16:06:50,0.495s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:50,31-01-2024 16:06:50,0.672s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:50,31-01-2024 16:06:51,0.436s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:51,31-01-2024 16:06:52,1.651s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:51,31-01-2024 16:06:51,0.521s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:51,31-01-2024 16:06:52,0.678s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:52,31-01-2024 16:06:52,0.440s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Search_004,Firefox 115.0,,,31-01-2024 16:06:52,31-01-2024 16:06:54,1.624s,PASSED
+Start setup action : setupTestCase,Firefox 115.0,,,31-01-2024 16:06:52,31-01-2024 16:06:53,0.496s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:53,31-01-2024 16:06:54,0.677s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search""), searchItem)",Firefox 115.0,,,31-01-2024 16:06:54,31-01-2024 16:06:54,0.445s,PASSED

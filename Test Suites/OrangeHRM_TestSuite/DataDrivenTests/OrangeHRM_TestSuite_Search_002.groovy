@@ -33,7 +33,6 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp() // Please change skipped to be false to activate this method.
 def setUp() {
-	WebUI.openBrowser("")
 	WebUI.callTestCase(findTestCase('TC_OrangeHRM_Login_001'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
@@ -43,7 +42,6 @@ def setUp() {
 @TearDown() // Please change skipped to be false to activate this method.
 def tearDown() {
 	WebUI.callTestCase(findTestCase('TC_OrangeHRM_Logout_002'), [:], FailureHandling.STOP_ON_FAILURE)
-	WebUI.closeBrowser()
 }
 
 /**

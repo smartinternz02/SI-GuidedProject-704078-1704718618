@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM_TestSuite_Claim,Firefox 115.0,,,31-01-2024 16:54:16,31-01-2024 16:56:39,2m - 22.578s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:54:37,31-01-2024 16:55:18,40.889s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:54:37,31-01-2024 16:54:38,1.206s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:54:38,31-01-2024 16:54:40,1.428s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:54:40,31-01-2024 16:54:42,2.049s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:54:42,31-01-2024 16:54:43,1.090s,PASSED
+"click(findTestObject(""OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select""))",Firefox 115.0,,,31-01-2024 16:54:43,31-01-2024 16:54:43,0.508s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:54:43,31-01-2024 16:54:45,1.088s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541""), ""Test remarks"")",Firefox 115.0,,,31-01-2024 16:54:45,31-01-2024 16:54:45,0.510s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create""))",Firefox 115.0,,,31-01-2024 16:54:45,31-01-2024 16:54:46,0.683s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit""))",Firefox 115.0,,,31-01-2024 16:54:46,31-01-2024 16:55:18,32.236s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:55:18,31-01-2024 16:55:59,40.570s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:55:18,31-01-2024 16:55:19,1.131s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:55:19,31-01-2024 16:55:21,1.797s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:55:21,31-01-2024 16:55:23,2.015s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:55:23,31-01-2024 16:55:24,1.233s,PASSED
+"click(findTestObject(""OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select""))",Firefox 115.0,,,31-01-2024 16:55:24,31-01-2024 16:55:25,0.490s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:55:25,31-01-2024 16:55:26,1.058s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541""), ""Test remarks"")",Firefox 115.0,,,31-01-2024 16:55:26,31-01-2024 16:55:26,0.513s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create""))",Firefox 115.0,,,31-01-2024 16:55:26,31-01-2024 16:55:27,0.664s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit""))",Firefox 115.0,,,31-01-2024 16:55:27,31-01-2024 16:55:59,31.656s,PASSED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:55:59,31-01-2024 16:56:39,40.380s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:55:59,31-01-2024 16:56:00,1.189s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:56:00,31-01-2024 16:56:01,1.607s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:56:01,31-01-2024 16:56:04,2.154s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:56:04,31-01-2024 16:56:05,1.062s,PASSED
+"click(findTestObject(""OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select""))",Firefox 115.0,,,31-01-2024 16:56:05,31-01-2024 16:56:05,0.505s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:56:05,31-01-2024 16:56:06,1.061s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541""), ""Test remarks"")",Firefox 115.0,,,31-01-2024 16:56:06,31-01-2024 16:56:07,0.505s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create""))",Firefox 115.0,,,31-01-2024 16:56:07,31-01-2024 16:56:07,0.680s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit""))",Firefox 115.0,,,31-01-2024 16:56:07,31-01-2024 16:56:39,31.575s,PASSED

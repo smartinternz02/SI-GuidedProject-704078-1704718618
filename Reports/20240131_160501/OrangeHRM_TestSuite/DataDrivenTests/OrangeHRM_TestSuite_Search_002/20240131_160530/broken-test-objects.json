@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password",
+      "brokenLocator": "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_160501/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Search_002/20240131_160530/Object Repository/OrangeHRMPages/OrangeHRM_Login_OR/input_Password_password_position.png"
+    }
+  ]
+}

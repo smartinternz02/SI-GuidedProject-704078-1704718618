@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_165414/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_165414/Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit_neighbor.png"
+    }
+  ]
+}

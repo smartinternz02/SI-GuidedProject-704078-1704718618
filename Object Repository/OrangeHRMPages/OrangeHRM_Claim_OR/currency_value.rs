@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>currency_value</name>
+   <tag></tag>
+   <elementGuidId>a8ab44e1-0eba-4d43-ac54-d169a36a2824</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/div/div[2]/input</value>
+      <webElementGuid>ad383b6d-c610-402e-baa3-c193f51bc103</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

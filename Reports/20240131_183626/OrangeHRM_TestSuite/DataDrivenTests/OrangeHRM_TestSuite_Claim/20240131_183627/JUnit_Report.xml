@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM_TestSuite_Claim" time="310.281" tests="3" failures="3" errors="0">
+   <testsuite name="OrangeHRM_TestSuite_Claim" tests="3" failures="3" errors="0" time="310.281" skipped="0" timestamp="31-01-2024T18:36:30" hostname="racericon - racer" id="Test Suites/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627"/>
+         <property name="logFiles" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/execution0.log"/>
+         <property name="attachments" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706441137.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706441316.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706467403.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706467538.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706493725.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706493817.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706519840.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706519979.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706542014.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706542094.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706563906.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706564042.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706585873.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706586000.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706608396.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706608477.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706632392.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706632506.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706655108.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706655207.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706678004.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706678068.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706700695.png, /home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706700829.png"/>
+         <property name="hostName" value="racericon - racer"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="78a08d5f-464e-40e4-98fe-4c6dd5592369"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="26.199" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[31-01-2024T18:38:13 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+31-01-2024T18:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:38:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:38:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:38:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:38:18 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:19 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:38:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:38:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:38:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:38:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:38:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:38:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:38:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:38:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:38:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:38:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:38:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:38:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:38:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:38:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:38:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:38:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:38:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:38:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:38:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:38:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:38:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:38:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T18:38:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T18:38:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Djibouti Franc'
+
+31-01-2024T18:38:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Djibouti Franc'
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Dominican Peso'
+
+31-01-2024T18:38:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Dominican Peso'
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Eastern Caribbean Dollars'
+
+31-01-2024T18:38:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Eastern Caribbean Dollars'
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ecuador Sucre'
+
+31-01-2024T18:38:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ecuador Sucre'
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Egyptian Pound'
+
+31-01-2024T18:38:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Egyptian Pound'
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'El Salvador Colon'
+
+31-01-2024T18:38:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'El Salvador Colon'
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Estonian Krona'
+
+31-01-2024T18:38:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Estonian Krona'
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ethiopian Birr'
+
+31-01-2024T18:38:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ethiopian Birr'
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Euro'
+
+31-01-2024T18:38:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Euro'
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Falkland Islands Pound'
+
+31-01-2024T18:38:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Falkland Islands Pound'
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Fiji Dollar'
+
+31-01-2024T18:38:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Fiji Dollar'
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gambian Dalasi'
+
+31-01-2024T18:38:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gambian Dalasi'
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ghanaian Cedi'
+
+31-01-2024T18:38:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ghanaian Cedi'
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gibraltar Pound'
+
+31-01-2024T18:38:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gibraltar Pound'
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T18:38:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gold (oz.)'
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:38:34 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:38:35 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), event): Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+31-01-2024T18:38:39 - [MESSAGE][FAILED] - Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706519840.png]]
+
+31-01-2024T18:38:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706519979.png]]]]></system-out>
+         <system-err><![CDATA[31-01-2024T18:38:13 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="22.443" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[31-01-2024T18:39:46 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+31-01-2024T18:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:39:50 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:39:50 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:39:50 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:39:50 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:50 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T18:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:52 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:39:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:39:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:39:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:39:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:39:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:39:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:39:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:39:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:39:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:39:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:39:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:39:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:39:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:39:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:39:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:39:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:39:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:39:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:39:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:39:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:39:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:39:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:40:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:40:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:40:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:40:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:00 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:40:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:40:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:40:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:40:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:40:01 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T18:40:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T18:40:02 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:40:02 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:40:03 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:40:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), event): Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+31-01-2024T18:40:08 - [MESSAGE][FAILED] - Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706608396.png]]
+
+31-01-2024T18:40:08 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706608477.png]]]]></system-out>
+         <system-err><![CDATA[31-01-2024T18:39:46 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Medical Reimbursement' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="22.719" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[31-01-2024T18:41:18 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+31-01-2024T18:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T18:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T18:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:22 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:41:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '48pbz'
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:41:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T18:41:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Test Event 2'
+
+31-01-2024T18:41:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Test Event 2'
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:23 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T18:41:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T18:41:24 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T18:41:24 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T18:41:24 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T18:41:24 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:41:24 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:41:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:41:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:41:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:41:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:41:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:41:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:41:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:41:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:41:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:41:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:41:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:41:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:41:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:41:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:41:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:41:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:41:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:41:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:41:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:41:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:41:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:41:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:41:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:41:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:41:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:41:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:41:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:41:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:41:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:41:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:41:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:41:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T18:41:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T18:41:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T18:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:41:35 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T18:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T18:41:36 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), event): Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+31-01-2024T18:41:40 - [MESSAGE][FAILED] - Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706700695.png]]
+
+31-01-2024T18:41:40 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_183626/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_183627/1706706700829.png]]]]></system-out>
+         <system-err><![CDATA[31-01-2024T18:41:18 - [TEST_CASE][FAILED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Travel Allowance' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T18:36:30 - [TEST_SUITE][FAILED] - OrangeHRM_TestSuite_Claim: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[31-01-2024T18:36:30 - [TEST_SUITE][FAILED] - OrangeHRM_TestSuite_Claim: Test Cases/Data Driven/TC_OrangeHRM_Claim_007 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_OrangeHRM_Claim_007.run(TC_OrangeHRM_Claim_007:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706706387603.run(TempTestSuite1706706387603.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text 'Accommodation' of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event",
+      "brokenLocator": "/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div[2]/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240131_192132/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_192132/Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event_position.png"
+    }
+  ]
+}

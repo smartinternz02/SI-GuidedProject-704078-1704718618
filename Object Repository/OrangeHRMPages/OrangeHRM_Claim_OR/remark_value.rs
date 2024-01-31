@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>remark_value</name>
+   <tag></tag>
+   <elementGuidId>9beb36e1-098e-4854-8b2f-532a5e8f8785</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[3]/div/div/div/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[3]/div/div/div/div[2]/textarea</value>
+      <webElementGuid>164d24ed-0393-429f-9a9c-0705b56d22f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

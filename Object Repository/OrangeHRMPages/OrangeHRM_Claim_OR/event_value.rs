@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>event_value</name>
+   <tag></tag>
+   <elementGuidId>898e2dab-5093-48ce-84aa-32299c184cba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[1]/div/div[2]/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div/div[1]/div[2]/div[2]/div/div/div[1]/form/div[1]/div/div[2]/div/div[2]/input</value>
+      <webElementGuid>9748c9c3-0a51-44b2-8548-c260f92b1a14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

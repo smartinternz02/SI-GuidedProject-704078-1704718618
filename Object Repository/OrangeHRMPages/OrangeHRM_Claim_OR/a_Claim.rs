@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Claim</name>
    <tag></tag>
-   <elementGuidId>5f05e266-7a97-4a66-a2cb-720cbcb218e0</elementGuidId>
+   <elementGuidId>849452cb-294b-4cd4-b652-c2f4e8afc578</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[11]/a</value>
+         <value>//a[contains(@href, '/web/index.php/claim/viewClaimModule')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>340e9c8a-4f36-4311-bd80-9e94767db4a2</webElementGuid>
+      <webElementGuid>1e9c9aed-3b0e-4ed9-83e8-fda63ab54416</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>6ba13a7e-bdf5-47a5-b249-715640c6cacc</webElementGuid>
+      <webElementGuid>1aeb3ee9-7738-4895-bcb4-61d019703a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/claim/viewClaimModule</value>
-      <webElementGuid>2855f307-9266-44fb-9bb3-6f08f456e7ec</webElementGuid>
+      <webElementGuid>f409d071-609a-4082-a24a-fa974c4a9fee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Claim</value>
-      <webElementGuid>d613d0cc-4852-458d-8caf-cb7b02740cbc</webElementGuid>
+      <webElementGuid>905e5523-1a7e-4cbc-ae5d-43f006f2d900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>3713c3b2-24da-499e-b035-853a1fcacefb</webElementGuid>
+      <webElementGuid>eefc935a-5251-4cea-bdb5-b26232eebcfa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[11]/a</value>
-      <webElementGuid>53489442-26ae-4e17-b559-416ad9903bb4</webElementGuid>
+      <webElementGuid>e54ee606-96b9-4183-b806-914c9b42da16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/claim/viewClaimModule')]</value>
-      <webElementGuid>46263d7f-4b47-45bc-9496-07ac605ce59d</webElementGuid>
+      <webElementGuid>f7c4b7a7-a3a6-4ed7-b3ab-ea78f48e0cef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[11]/a</value>
-      <webElementGuid>2a71967a-32c6-4d4c-85d8-3e96e4c044ae</webElementGuid>
+      <webElementGuid>30c8c851-f305-489c-aaad-8e8dfb353a7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/claim/viewClaimModule' and (text() = 'Claim' or . = 'Claim')]</value>
-      <webElementGuid>3a64a5e5-37d2-4814-88a6-ffd9514fd214</webElementGuid>
+      <webElementGuid>e524175c-ab42-44d0-8652-79637f4a6ef0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

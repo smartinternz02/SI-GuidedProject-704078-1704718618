@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM_TestSuite_Claim" time="99.016" tests="3" failures="0" errors="0">
+   <testsuite name="OrangeHRM_TestSuite_Claim" tests="3" failures="0" errors="0" time="99.016" skipped="0" timestamp="31-01-2024T17:01:51" hostname="racericon - racer" id="Test Suites/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_170149/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_170149"/>
+         <property name="logFiles" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_170149/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_170149/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="racericon - racer"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="e6322c8e-4fc1-443c-a622-9376c76edb3d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="27.548" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T17:02:15 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T17:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:02:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:02:20 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:02:20 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:02:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:02:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:20 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:02:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:02:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:02:21 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:02:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:02:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:02:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:02:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:02:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:02:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:02:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:02:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:02:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:02:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:02:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:02:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:02:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:25 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:02:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:02:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:02:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:26 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:02:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:02:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:02:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:02:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:27 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:28 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:02:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:02:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:02:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:02:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:29 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:02:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:02:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:02:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:02:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:02:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:02:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:02:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:02:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T17:02:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T17:02:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Djibouti Franc'
+
+31-01-2024T17:02:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Djibouti Franc'
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Dominican Peso'
+
+31-01-2024T17:02:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Dominican Peso'
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Eastern Caribbean Dollars'
+
+31-01-2024T17:02:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Eastern Caribbean Dollars'
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ecuador Sucre'
+
+31-01-2024T17:02:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ecuador Sucre'
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Egyptian Pound'
+
+31-01-2024T17:02:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Egyptian Pound'
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'El Salvador Colon'
+
+31-01-2024T17:02:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'El Salvador Colon'
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Estonian Krona'
+
+31-01-2024T17:02:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Estonian Krona'
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ethiopian Birr'
+
+31-01-2024T17:02:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ethiopian Birr'
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Euro'
+
+31-01-2024T17:02:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Euro'
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:34 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Falkland Islands Pound'
+
+31-01-2024T17:02:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Falkland Islands Pound'
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Fiji Dollar'
+
+31-01-2024T17:02:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Fiji Dollar'
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gambian Dalasi'
+
+31-01-2024T17:02:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gambian Dalasi'
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:35 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ghanaian Cedi'
+
+31-01-2024T17:02:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Ghanaian Cedi'
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gibraltar Pound'
+
+31-01-2024T17:02:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gibraltar Pound'
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T17:02:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Gold (oz.)'
+
+31-01-2024T17:02:36 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:02:37 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:02:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:02:37 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T17:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="23.25" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T17:02:43 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T17:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:02:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:48 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:02:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T17:02:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:02:49 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:02:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:02:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:02:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:50 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:02:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:02:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:02:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:51 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:02:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:02:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:02:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:02:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:52 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:02:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:02:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:02:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:02:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:53 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:02:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:02:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:02:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:02:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:54 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:02:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:02:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:02:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:02:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:55 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:02:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:02:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:02:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:56 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:02:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:02:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:02:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:02:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:57 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:58 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T17:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T17:02:59 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:03:00 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:03:00 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:03:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="24.286" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T17:03:06 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T17:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T17:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:03:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:03:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Accommodation'
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:12 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T17:03:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'tgykd'
+
+31-01-2024T17:03:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'tgykd'
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T17:03:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T17:03:13 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:03:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:14 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:03:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:03:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:03:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:03:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:15 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:03:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:03:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentine Peso'
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:03:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Aruban Florin'
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:03:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Australian Dollar'
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:16 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahamian Dollar'
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bahraini Dinar'
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bangladeshi Taka'
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Barbados Dollar'
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:17 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:03:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Belize Dollar'
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:03:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bermudian Dollar'
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:03:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bhutan Ngultrum'
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:03:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bolivian Boliviano'
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:18 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Botswana Pula'
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brazilian Real'
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Brunei Dollar'
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Bulgarian Lev'
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:19 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Burundi Franc'
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Canadian Dollar'
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cape Verde Escudo'
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cayman Islands Dollar'
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:20 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BCEAO'
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFA Franc BEAC'
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'CFP Franc'
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chilean Peso'
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:21 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Chinese Yuan Renminbi'
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Colombian Peso'
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Comoros Franc'
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Costa Rican Colon'
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:22 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:03:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Croatian Kuna'
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:03:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cuban Peso'
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:03:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Cyprus Pound'
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:23 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T17:03:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Czech Koruna'
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T17:03:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Danish Krona'
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T17:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "Test remarks"): Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:03:25 - [MESSAGE][PASSED] - Text 'Test remarks' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T17:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T17:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T17:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T17:01:51 - [TEST_SUITE][PASSED] - OrangeHRM_TestSuite_Claim: Test Cases/Data Driven/TC_OrangeHRM_Claim_007]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

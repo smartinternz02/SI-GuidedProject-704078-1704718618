@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","testCaseId":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","iterationVariableName":"","bindedValues":{"currency":"\u0027Gold (oz.)\u0027","event":"\u0027Accommodation\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","testCaseId":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","iterationVariableName":"","bindedValues":{"currency":"\u0027Czech Koruna\u0027","event":"\u0027Medical Reimbursement\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","testCaseId":"Test Cases/Data Driven/TC_OrangeHRM_Claim_007","iterationVariableName":"","bindedValues":{"currency":"\u0027Danish Krona\u0027","event":"\u0027Travel Allowance\u0027"}}

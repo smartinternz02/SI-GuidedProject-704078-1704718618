@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Submit Claim</name>
    <tag></tag>
-   <elementGuidId>6f99aff0-0a6f-4865-a1d7-722f95be3af7</elementGuidId>
+   <elementGuidId>db4aa00a-61d5-4bfe-86c0-f29d5a110a54</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>76d0062d-569b-40db-bf8c-0af5035a7de0</webElementGuid>
+      <webElementGuid>e3276260-a58a-403b-bae9-3492ea867b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-topbar-body-nav-tab-item</value>
-      <webElementGuid>67e68c66-34c7-4e6f-9051-44df74b9057e</webElementGuid>
+      <webElementGuid>f6216117-895b-4b78-88a7-09468fc8ef54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>5ff75f83-5bc8-4fc9-96e4-ca74d2d725d5</webElementGuid>
+      <webElementGuid>ea911ed3-3495-408f-ad2a-9c84d4bdfb81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submit Claim</value>
-      <webElementGuid>94fc5864-9461-4c10-b5e4-77ca488b8b4e</webElementGuid>
+      <webElementGuid>4bab32cd-5110-4bad-9c62-33da04991b2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab&quot;]/a[@class=&quot;oxd-topbar-body-nav-tab-item&quot;]</value>
-      <webElementGuid>fe34b35a-8cf3-4271-a4e2-f59f8740abbd</webElementGuid>
+      <webElementGuid>bf33f535-70a7-42d1-bf99-0a95d06ba1e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/a</value>
-      <webElementGuid>e3244ebf-4de5-4549-b8ab-57d5f7f62567</webElementGuid>
+      <webElementGuid>99e83c1f-c082-4d46-8d5f-80dd489532d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Submit Claim')]</value>
-      <webElementGuid>30e1139e-e7ea-469a-acf3-3ee066fd066b</webElementGuid>
+      <webElementGuid>4fdfab21-0187-40e0-b745-f3f065312a60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::a[1]</value>
-      <webElementGuid>eb6be879-5909-4b22-a21a-b226e60f7c10</webElementGuid>
+      <webElementGuid>cd9a78a7-d8c6-4504-9711-4b0d65ba38b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::a[4]</value>
-      <webElementGuid>86e2e32d-ba17-4fdd-8c43-53f5309d4836</webElementGuid>
+      <webElementGuid>ffb6b24e-b477-45cd-997a-7bc0881bb9c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submit Claim']/parent::*</value>
-      <webElementGuid>ef5d428c-0149-4280-b71c-6bdff28a8f78</webElementGuid>
+      <webElementGuid>26ae51c6-0f36-48dc-a0c9-b006f1e94a80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>cc3f29bf-56f0-46b4-8202-5f024d02a328</webElementGuid>
+      <webElementGuid>bef3c934-bbfc-415a-a096-3dc0271e48ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>4ce9f426-b39e-45d0-81ac-9a3b918359c3</webElementGuid>
+      <webElementGuid>1f08fcdf-57e0-44d6-b317-631f4b633b55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Submit Claim' or . = 'Submit Claim')]</value>
-      <webElementGuid>e68325c7-e70f-4905-a50d-f48556618c8c</webElementGuid>
+      <webElementGuid>1c15b8e4-dc78-44c7-8a0f-fe24720a4cb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

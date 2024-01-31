@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM_TestSuite_Claim,Firefox 115.0,,,31-01-2024 16:30:15,31-01-2024 16:32:12,1m - 56.281s,FAILED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:31:23,31-01-2024 16:31:29,5.217s,FAILED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:31:23,31-01-2024 16:31:25,1.112s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:31:25,31-01-2024 16:31:26,1.705s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:31:26,31-01-2024 16:31:28,1.927s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:31:28,31-01-2024 16:31:29,0.448s,FAILED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:31:45,31-01-2024 16:31:50,5.157s,FAILED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:31:45,31-01-2024 16:31:46,1.139s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:31:46,31-01-2024 16:31:48,1.633s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:31:48,31-01-2024 16:31:50,1.923s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:31:50,31-01-2024 16:31:50,0.419s,FAILED
+,,,,,,,
+Test Cases/Data Driven/TC_OrangeHRM_Claim_007,Firefox 115.0,,,31-01-2024 16:32:06,31-01-2024 16:32:12,5.382s,FAILED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim""))",Firefox 115.0,,,31-01-2024 16:32:06,31-01-2024 16:32:07,1.171s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim""))",Firefox 115.0,,,31-01-2024 16:32:07,31-01-2024 16:32:09,1.779s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select""))",Firefox 115.0,,,31-01-2024 16:32:09,31-01-2024 16:32:11,1.945s,PASSED
+for (def index : (1..4)),Firefox 115.0,,,31-01-2024 16:32:11,31-01-2024 16:32:12,0.473s,FAILED
