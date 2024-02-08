@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM_TestSuite_Claim" time="80.292" tests="3" failures="0" errors="0">
+   <testsuite name="OrangeHRM_TestSuite_Claim" tests="3" failures="0" errors="0" time="80.292" skipped="0" timestamp="31-01-2024T21:02:26" hostname="racericon - racer" id="Test Suites/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_210222/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_210222"/>
+         <property name="logFiles" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_210222/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Claim/20240131_210222/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="racericon - racer"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="4f71163d-b631-4b69-b089-024c2cadb9f2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="21.335" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:02:41 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T21:02:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:02:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:02:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:02:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:02:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:02:47 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:02:48 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:02:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T21:02:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), remark): Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:02:50 - [MESSAGE][PASSED] - Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:02:51 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:02:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:02:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:02:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), "value", event, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Allowance'
+
+31-01-2024T21:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Allowance'
+
+31-01-2024T21:02:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value"), "value", currency, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Afghanistan Afghani'
+
+31-01-2024T21:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Afghanistan Afghani'
+
+31-01-2024T21:02:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value"), "value", remark, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:02:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), "value", "Initiated", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:02:57 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:02:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:02:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:02:58 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:02:58 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+31-01-2024T21:03:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+31-01-2024T21:03:02 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value"), "value", "Submitted", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:03:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:03:02 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="21.497" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:03:03 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T21:03:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:03:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:03:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:03:08 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:03:08 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:03:08 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:08 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:08 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:03:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:03:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'HRA'
+
+31-01-2024T21:03:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'HRA'
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T21:03:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:09 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:10 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:03:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T21:03:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T21:03:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T21:03:11 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:03:12 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), remark): Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:03:12 - [MESSAGE][PASSED] - Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:03:13 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:03:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:03:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:03:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), "value", event, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Medical Reimbursement'
+
+31-01-2024T21:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Medical Reimbursement'
+
+31-01-2024T21:03:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value"), "value", currency, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Albanian Lek'
+
+31-01-2024T21:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Albanian Lek'
+
+31-01-2024T21:03:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value"), "value", remark, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:03:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), "value", "Initiated", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:03:19 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:03:19 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:03:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:03:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:03:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+31-01-2024T21:03:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value"), "value", "Submitted", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" time="21.998" classname="Test Cases/Data Driven/TC_OrangeHRM_Claim_007" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:03:24 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Claim_007: Test Cases/Data Driven/TC_OrangeHRM_Claim_007
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Claim' is clicked on
+
+31-01-2024T21:03:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/a_Submit Claim' is clicked on
+
+31-01-2024T21:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_Select' is clicked on
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:03:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: '-- Select --'
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:29 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:03:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Allowance'
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'HRA'
+
+31-01-2024T21:03:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'HRA'
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T21:03:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Medical Reimbursement'
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event", ["index":index]): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - divString = getText(testObject): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T21:03:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is: 'Travel Allowance'
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - out.println(divString): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - if (divString.equals(event)): null
+
+31-01-2024T21:03:30 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Event' is clicked on
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_Select' is clicked on
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - index = 1: null
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - while (true): null
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:31 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: '-- Select --'
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T21:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Afghanistan Afghani'
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T21:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Albanian Lek'
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T21:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Algerian Dinar'
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:32 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T21:03:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Angolan New Kwanza'
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - (index++): null
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - testObject = findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency", ["index":index]): null
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - if (testObject == null): null
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - if (getText(testObject).equals(currency)): null
+
+31-01-2024T21:03:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is: 'Argentina Pesos'
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - click(testObject): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/div_Currency' is clicked on
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - break: null
+
+31-01-2024T21:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), remark): Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:03:34 - [MESSAGE][PASSED] - Text 'Random remark' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+31-01-2024T21:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Create' is clicked on
+
+31-01-2024T21:03:35 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:03:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:03:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' is present
+
+31-01-2024T21:03:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value"), "value", event, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Travel Allowance'
+
+31-01-2024T21:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/event_value' has attribute 'value' with value 'Travel Allowance'
+
+31-01-2024T21:03:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value"), "value", currency, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Argentina Pesos'
+
+31-01-2024T21:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/currency_value' has attribute 'value' with value 'Argentina Pesos'
+
+31-01-2024T21:03:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value"), "value", remark, 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/remark_value' has attribute 'value' with value 'Random remark'
+
+31-01-2024T21:03:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), "value", "Initiated", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' has attribute 'value' with value 'Initiated'
+
+31-01-2024T21:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit")): Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/button_Submit' is clicked on
+
+31-01-2024T21:03:41 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+31-01-2024T21:03:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+31-01-2024T21:03:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value"), 20): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/status_value' is present
+
+31-01-2024T21:03:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+31-01-2024T21:03:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+31-01-2024T21:03:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value"), "value", "Submitted", 5): Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:46 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMPages/OrangeHRM_Claim_OR/submited_staus_value' has attribute 'value' with value 'Submitted'
+
+31-01-2024T21:03:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:03:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:03:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T21:02:26 - [TEST_SUITE][PASSED] - OrangeHRM_TestSuite_Claim: Test Cases/Data Driven/TC_OrangeHRM_Claim_007]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

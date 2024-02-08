@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM_TestSuite_Search_002" time="36.112" tests="12" failures="0" errors="0">
+   <testsuite name="OrangeHRM_TestSuite_Search_002" tests="12" failures="0" errors="0" time="36.112" skipped="0" timestamp="31-01-2024T21:00:15" hostname="racericon - racer" id="Test Suites/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Search_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_210002/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Search_002/20240131_210012"/>
+         <property name="logFiles" value="/home/racericon/git/SI-GuidedProject-704078-1704718618/Reports/20240131_210002/OrangeHRM_TestSuite/DataDrivenTests/OrangeHRM_TestSuite_Search_002/20240131_210012/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="racericon - racer"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Firefox 115.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="121252e9-1f74-4f1e-a66e-de34d2769e0b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.824" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:30 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:31 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:31 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Admin' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:32 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.726" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:32 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:32 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:33 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:33 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:33 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'PIM' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:34 - [MESSAGE][PASSED] - Text 'PIM' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.708" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:34 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:34 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:34 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:35 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:35 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:35 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Leave' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:35 - [MESSAGE][PASSED] - Text 'Leave' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.651" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:36 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:36 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:36 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:36 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:36 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Time' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:37 - [MESSAGE][PASSED] - Text 'Time' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.732" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:37 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:37 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:38 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:38 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:38 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:38 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Recruitment' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:39 - [MESSAGE][PASSED] - Text 'Recruitment' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.675" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:39 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:39 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:40 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:40 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:40 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'My Info' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:40 - [MESSAGE][PASSED] - Text 'My Info' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.715" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:41 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:41 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:41 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:41 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:41 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Performance' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:42 - [MESSAGE][PASSED] - Text 'Performance' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.685" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:43 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:43 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:43 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:43 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Dashboard' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:44 - [MESSAGE][PASSED] - Text 'Dashboard' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.628" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:44 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:44 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:45 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:45 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:45 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:45 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Directory' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:45 - [MESSAGE][PASSED] - Text 'Directory' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.681" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:46 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:46 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:46 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:46 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:46 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Maintenance' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:47 - [MESSAGE][PASSED] - Text 'Maintenance' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.659" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:48 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:48 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:48 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:48 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:48 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Claim' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:49 - [MESSAGE][PASSED] - Text 'Claim' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven/TC_OrangeHRM_Search_004" time="1.666" classname="Test Cases/Data Driven/TC_OrangeHRM_Search_004" status="PASSED">
+         <system-out><![CDATA[31-01-2024T21:00:49 - [TEST_CASE][PASSED] - Test Cases/Data Driven/TC_OrangeHRM_Search_004: Test Cases/Data Driven/TC_OrangeHRM_Search_004
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:49 - [TEST_STEP][PASSED] - commonUtils.Utils.clearText(findTestObject("OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus")): commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:50 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:50 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:50 - [MESSAGE][PASSED] - commonUtils.Utils.clearText is PASSED
+
+31-01-2024T21:00:50 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+31-01-2024T21:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus"), searchItem): Text 'Buzz' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:51 - [MESSAGE][PASSED] - Text 'Buzz' is set on object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/input_Admin_oxd-input oxd-input--focus'
+
+31-01-2024T21:00:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search"), searchItem): Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRMPages/OrangeHRM_Search_OR/span_search' are matched.
+
+31-01-2024T21:00:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+31-01-2024T21:00:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+31-01-2024T21:00:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T21:00:15 - [TEST_SUITE][PASSED] - OrangeHRM_TestSuite_Search_002: Test Cases/Data Driven/TC_OrangeHRM_Search_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

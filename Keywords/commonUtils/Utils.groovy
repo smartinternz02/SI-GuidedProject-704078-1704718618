@@ -52,7 +52,7 @@ class Utils {
 		try {
 
 			if (RunConfiguration.getOS().contains("Mac")) {
-				WebUI.s
+				
 				WebUI.sendKeys(to, Keys.chord(Keys.COMMAND, "a"))
 			}
 			else{
